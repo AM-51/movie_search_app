@@ -1,0 +1,10 @@
+.movie-error-card-container {
+  height: 320px;
+  background-color: #1f1f1f;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.error-msg {
+  font-size: 24px;
+  color: #e91515;
+}

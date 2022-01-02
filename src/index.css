@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&family=Teko:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&family=Raleway:wght@300;400;500;600&display=swap");
+
+body,
+html,
+#root {
+  min-height: 100vh;
+  margin: 0;
+  background-color: #292929;
+  color: #e7e7e7;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 300;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

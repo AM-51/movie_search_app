@@ -1,0 +1,41 @@
+.page-card-title-skeleton {
+  animation: skeleton-loading 1s linear infinite alternate;
+  width: 25%;
+  height: 50px;
+}
+
+.page-card-image-skeleton {
+  animation: skeleton-loading 1s linear infinite alternate;
+  height: 400px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 4px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 4px;
+}
+
+.page-card-name-skeleton {
+  animation: skeleton-loading 1s linear infinite alternate;
+  width: 25%;
+  height: 30px;
+}
+
+.page-card-text-skeleton {
+  animation: skeleton-loading 1s linear infinite alternate;
+  width: 90%;
+  height: 15px;
+}
+
+.page-card-short-text-skeleton {
+  animation: skeleton-loading 1s linear infinite alternate;
+  width: 60%;
+  height: 15px;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(199, 14%, 27%);
+  }
+  100% {
+    background-color: hsl(199, 14%, 55%);
+  }
+}

@@ -1,0 +1,29 @@
+.movie-card-image-skeleton {
+  animation: skeleton-loading 1s linear infinite alternate;
+  height: 200px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.movie-card-name-skeleton {
+  animation: skeleton-loading 1s linear infinite alternate;
+  width: 30%;
+  height: 25px;
+}
+
+.movie-card-short-text-skeleton {
+  animation: skeleton-loading 1s linear infinite alternate;
+  width: 60%;
+  height: 15px;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(199, 14%, 27%);
+  }
+  100% {
+    background-color: hsl(199, 14%, 55%);
+  }
+}
