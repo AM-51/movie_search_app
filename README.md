@@ -1,9 +1,12 @@
-# A Movie Search website for your personal use!
+# A Movie Search website
 
-## Usage:
+## Description:
 
-Simply type in any movie name in the search bar, hit the search button and all related results will appear below.
-Clicking a single movie card (as appears in the results) will show a full description of the chosen movie.
+A Movie Search website made with React.
+
+## Link:
+
+<a href='https://imdb-search-app.netlify.app/' target='_blank'>IMDB Search app</a>
 
 ## Contact:
 
